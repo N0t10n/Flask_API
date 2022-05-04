@@ -23,4 +23,4 @@ def predict():
     
     return jsonify({'predictions': prediction[0]})
 
-# app.run()
+app.run()
